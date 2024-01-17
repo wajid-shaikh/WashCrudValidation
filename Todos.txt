@@ -1,0 +1,21 @@
+[+] Create validation funactionality for all input fields
+
+[+] Update action buttons data with icon
+
+[-] Make the UI mobile and tab compatible
+
+[-] Change the Page title according to the Tab, also change the title icon
+
+[-] Change the UI Color for each tab
+
+[-] Setup enviornment variable the .env details frontend and backend  
+
+[-] Create the necesarry files for deploying. i.e vercel.json
+
+[-] Deploy the server folder on Vercel 
+
+[-] Setup the deployed API in to the .env file in frontend
+
+[-] Deploy the frontend Part on vercel
+
+[-] Congratulations you have completed the your first ever Mern Project, Enjoy it !!😎🎉!!
