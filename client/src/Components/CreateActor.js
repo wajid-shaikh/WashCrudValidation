@@ -26,7 +26,8 @@ const CreateActor = () => {
 
   const callCreateFunc = async () => {
     if (error.name === "" && error.email === "" && error.contact === "") {
-      const response = await axios.post(`${API_URL}/create`, input);
+      await axios.post(`${API_URL}/create`, input);
+      // const response = await axios.post(`${API_URL}/create`, input);
       // console.log("Data posted successfully:", response.data.data);
       // Reset the form fields
       setInput({
