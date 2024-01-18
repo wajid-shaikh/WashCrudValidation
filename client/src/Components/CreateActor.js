@@ -44,6 +44,7 @@ const CreateActor = () => {
   useEffect(() => {
     callCreateFunc();
     // eslint-disable-next-line
+    document.title = "Create an Actor";
   }, [error]);
 
   return (

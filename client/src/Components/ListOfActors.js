@@ -31,6 +31,7 @@ const ListOfActors = () => {
 
   useEffect(() => {
     getallactors();
+    document.title = "List of Actors";
   }, []);
 
   return (

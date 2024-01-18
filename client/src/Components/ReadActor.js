@@ -19,6 +19,7 @@ const ReadActor = () => {
 
   useEffect(() => {
     fetchSingleData();
+    document.title = `Read an Actor`;
     // eslint-disable-next-line
   }, [id]);
 

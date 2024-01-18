@@ -66,6 +66,7 @@ const UpdateActor = () => {
   useEffect(() => {
     getReadData(id);
     // eslint-disable-next-line
+    document.title = `Update an Actor`;
   }, [id]);
 
   return (
