@@ -47,9 +47,11 @@ const CreateActor = () => {
   }, [error]);
 
   return (
-    <div className="bg-[#0A4B39] h-screen flex flex-col items-center">
-      <h1 className=" text-[30px] font-bold mt-10 text-white">CREATE ACTOR</h1>
-      <div className=" bg-white w-[500px] rounded-md mt-10 shadow-2xl hover:shadow-black transition-all ease-in-out duration-500">
+    <div className="bg-[#340744] h-screen flex flex-col items-center ">
+      <h1 className=" text-[30px] font-bold mt-24 md:mt-24 lg:mt-10 xl:mt-10 text-white">
+        CREATE ACTOR
+      </h1>
+      <div className=" bg-white w-[380px] md:w-[500px] lg:w-[500px] xl:w-[500px] rounded-md mt-10 shadow-2xl hover:shadow-black transition-all ease-in-out duration-500">
         <form onSubmit={handleSubmit} className=" flex flex-col mx-10 my-2">
           <label className=" text-black mt-5 font-semibold" htmlFor="name">
             Name
@@ -108,13 +110,13 @@ const CreateActor = () => {
           <div className=" flex justify-between">
             <button
               type="submit"
-              className=" text-white mb-3 bg-[#0A4B39] hover:bg-green-700 rounded-md px-3 py-1"
+              className=" text-white mb-3 bg-[#340744] hover:bg-[#603F8B] rounded-md px-3 py-1"
             >
               Save
             </button>
             <Link
               to={"/"}
-              className=" mb-3 font-bold text-[#0A4B39] hover:text-green-700 rounded-md px-3 py-1"
+              className=" mb-3 font-bold text-[#340744] hover:text-[#603F8B] rounded-md px-3 py-1"
             >
               Go Back?
             </Link>

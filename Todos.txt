@@ -2,7 +2,7 @@
 
 [+] Update action buttons data with icon
 
-[-] Make the UI mobile and tab compatible
+[+] Make the UI mobile and tab compatible
 
 [-] Change the Page title according to the Tab, also change the title icon
 

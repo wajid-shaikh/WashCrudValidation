@@ -23,9 +23,11 @@ const ReadActor = () => {
   }, [id]);
 
   return (
-    <div className="bg-[#EBB30A] h-screen text-white flex flex-col items-center">
-      <h1 className=" text-[30px] font-bold mt-10">READ ACTOR</h1>
-      <div className=" bg-white w-[500px] rounded-md mt-10 shadow-2xl hover:shadow-black transition-all ease-in-out duration-500 flex flex-col">
+    <div className="bg-[#FF4500] h-screen text-white flex flex-col items-center">
+      <h1 className=" text-[30px] font-bold mt-24 md:mt-24 lg:mt-10 xl:mt-10">
+        READ ACTOR
+      </h1>
+      <div className=" bg-white w-[380px] md:w-[500px] lg:w-[500px] xl:w-[500px] rounded-md mt-10 shadow-2xl hover:shadow-black transition-all ease-in-out duration-500 flex flex-col">
         <p className="text-black mt-5 font-bold text-center text-[20px] border-b-[2px]">
           {ReadData.name}
         </p>
@@ -56,7 +58,7 @@ const ReadActor = () => {
 
         <Link
           to={"/"}
-          className=" text-center mb-3 font-bold text-[#EBB30A] hover:text-[#BC9C22] rounded-md px-3 py-1"
+          className=" text-center mb-3 font-bold text-[#FF4500] hover:text-[#FF8300] rounded-md px-3 py-1"
         >
           Go Back?
         </Link>

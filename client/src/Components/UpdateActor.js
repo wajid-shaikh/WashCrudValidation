@@ -69,9 +69,11 @@ const UpdateActor = () => {
   }, [id]);
 
   return (
-    <div className="bg-[#524864] h-screen text-white flex flex-col items-center">
-      <h1 className="text-[30px] font-bold mt-10">UPDATE ACTOR</h1>
-      <div className="bg-white w-[500px] rounded-md mt-10 shadow-2xl hover:shadow-black transition-all ease-in-out duration-500">
+    <div className="bg-[#7F0000] h-screen text-white flex flex-col items-center">
+      <h1 className="text-[30px] font-bold mt-24 md:mt-24 lg:mt-10 xl:mt-10">
+        UPDATE ACTOR
+      </h1>
+      <div className="bg-white w-[380px] md:w-[500px] lg:w-[500px] xl:w-[500px] rounded-md mt-10 shadow-2xl hover:shadow-black transition-all ease-in-out duration-500">
         <form
           className="flex flex-col mx-10 my-2"
           onSubmit={handleUpdateSubmit}
@@ -132,12 +134,12 @@ const UpdateActor = () => {
             <p className="text-sm text-center invisible text-red-500">-</p>
           )}
           <div className="flex justify-between">
-            <button className="text-white mb-3 bg-[#524864] hover:bg-[#926A72] rounded-md px-3 py-1">
+            <button className="text-white mb-3 bg-[#7F0000] hover:bg-[#B32800] rounded-md px-3 py-1">
               Update
             </button>
             <Link
               to={"/"}
-              className="mb-3 font-bold text-[#524864] hover:text-[#926A72] rounded-md px-3 py-1"
+              className="mb-3 font-bold text-[#7F0000] hover:text-[#B32800] rounded-md px-3 py-1"
             >
               Go Back?
             </Link>
