@@ -25,7 +25,7 @@ const ListOfActors = () => {
       axios.delete(`${API_URL}/deleteactor/${id}`);
       setTimeout(() => {
         getallactors();
-      }, 100);
+      }, 1000);
     }
   };
 
