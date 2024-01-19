@@ -70,7 +70,7 @@ const UpdateActor = () => {
   }, [id]);
 
   return (
-    <div className="bg-[#7F0000] h-screen text-white flex flex-col items-center">
+    <div className="bg-[#381333] h-screen text-white flex flex-col items-center">
       <h1 className="text-[30px] font-bold mt-24 md:mt-24 lg:mt-10 xl:mt-10">
         UPDATE ACTOR
       </h1>
@@ -135,12 +135,12 @@ const UpdateActor = () => {
             <p className="text-sm text-center invisible text-red-500">-</p>
           )}
           <div className="flex justify-between">
-            <button className="text-white mb-3 bg-[#7F0000] hover:bg-[#B32800] rounded-md px-3 py-1">
+            <button className="text-white mb-3 bg-[#381333] hover:bg-[#9619B2] rounded-md px-3 py-1">
               Update
             </button>
             <Link
               to={"/"}
-              className="mb-3 font-bold text-[#7F0000] hover:text-[#B32800] rounded-md px-3 py-1"
+              className="mb-3 font-bold text-[#381333] hover:text-[#9619B2] rounded-md px-3 py-1"
             >
               Go Back?
             </Link>

@@ -35,7 +35,7 @@ const ListOfActors = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center bg-[#FF5765] h-screen md:bg-[#FF5765] md:h-screen xl:bg-[#FF5765] xl:h-screen lg:bg-[#FF5765] lg:h-screen">
+    <div className="flex flex-col items-center bg-[#9619B2] h-screen md:bg-[#9619B2] md:h-screen xl:bg-[#9619B2] xl:h-screen lg:bg-[#9619B2] lg:h-screen">
       <h1 className=" mt-24 md:mt-24 lg:mt-10 xl:mt-10 font-bold text-[30px] text-white">
         CRUD APP FOR ACTORS
       </h1>
@@ -85,12 +85,12 @@ const ListOfActors = () => {
                     <FontAwesomeIcon icon={faTrash} />
                   </button>
                   <Link to={`/update/${item._id}`}>
-                    <button className="px-2 bg-[#7F0000] rounded-md text-white">
+                    <button className="px-2 bg-[#381333] rounded-md text-white">
                       <FontAwesomeIcon icon={faPenToSquare} />
                     </button>
                   </Link>
                   <Link to={`/read/${item._id}`}>
-                    <button className="px-2 bg-[#FF4500] rounded-md text-white">
+                    <button className="px-2 bg-[#AB0552] rounded-md text-white">
                       <FontAwesomeIcon icon={faEye} />
                     </button>
                   </Link>

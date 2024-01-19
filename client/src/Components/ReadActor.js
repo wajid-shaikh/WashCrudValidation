@@ -24,7 +24,7 @@ const ReadActor = () => {
   }, [id]);
 
   return (
-    <div className="bg-[#FF4500] h-screen text-white flex flex-col items-center">
+    <div className="bg-[#AB0552] h-screen text-white flex flex-col items-center">
       <h1 className=" text-[30px] font-bold mt-24 md:mt-24 lg:mt-10 xl:mt-10">
         READ ACTOR
       </h1>
@@ -57,12 +57,9 @@ const ReadActor = () => {
           </p>
         </div>
 
-        <Link
-          to={"/"}
-          className=" text-center mb-3 font-bold text-[#FF4500] hover:text-[#FF8300] rounded-md px-3 py-1"
-        >
-          Go Back?
-        </Link>
+        <div className=" inline-block mx-auto font-bold text-[#AB0552] hover:text-[#FF8300] rounded-md mb-4">
+          <Link to={"/"}>Go Back?</Link>
+        </div>
       </div>
     </div>
   );
